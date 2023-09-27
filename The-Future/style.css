@@ -1,0 +1,83 @@
+body { 
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+
+  background-image: url(img/unsplash_jSAb1ifwf8Y.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: white;
+  font-family: 'Lato', sans-serif;
+
+}
+
+main { 
+  padding-left: 50px;
+  width: 65vw;
+}
+
+.content { 
+  padding-top:  80px;
+  
+}
+
+h1 { 
+  font-size: 88px;
+  font-style: normal;
+  font-weight: 900;
+  /* font-family: Lato; Tenho q busca essa fonte depois */
+  width: 684px;
+  margin-bottom: 24px;
+}
+
+.content p { 
+  font-size: 24px;
+  width: 684px; 
+  margin: 0;
+  color: rgb(153, 153, 153);
+}
+
+button { 
+  background-color: white;
+  color: black;
+  padding: 19px 48px;
+  font-size: 24px;
+  border-radius: 16px;
+  margin-top: 24px;
+  cursor: pointer;
+}
+
+.cardlist { 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.card { 
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.25) 0%, rgba(255, 255, 255, 0.13) 68.53%);
+  backdrop-filter: blur(16px);
+  cursor: pointer;
+  padding: 10px 53px 44px 54px;
+  width: 412px;
+  border-radius: 17px;
+  margin-left: 20px;
+  margin-top: 25px;
+}
+
+.card p { 
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: 300;
+  margin-top: 0;
+  width: 300px;
+  color: rgb(161, 159, 159);
+}
+
+.card h2 { 
+  margin-bottom: 16px;
+  font-weight: 900;
+  font-size: 32px;
+}
