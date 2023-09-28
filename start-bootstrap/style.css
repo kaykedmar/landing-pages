@@ -106,6 +106,6 @@ button {
   border: none;
   background-color: #094bac;
   border-radius: 5px;
- 
+  cursor: pointer;
 }
 
