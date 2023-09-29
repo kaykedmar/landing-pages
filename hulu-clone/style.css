@@ -128,11 +128,50 @@ header p {
 }
 
 @media screen and (max-width: 767px) { 
-  .selection span { 
-    font-size: 20px;
+
+  main { 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  
   }
 
-  .title { 
-    font-size: 20px;
+  .moveis-card .title  { 
+    font-size: 17px;
+    margin-bottom: 25px;
   }
+
+  .moveis-card p { 
+    font-size: 14px;
+  
+  }
+
+  .moveis-card { 
+    margin-left: 10px;
+    margin-top: 0;
+  }
+
+  .selection span { 
+    font-size: 15px;
+    display: none;
+  }
+
+  .home,
+  .trading,
+  .watch,
+  .library,
+  .search,
+  .account { 
+    padding: 5px;
+    margin-left: 18px;;
+  }
+
+  .logo { 
+    display: none;
+  }
+
+  .moveis-card:hover { 
+    transform: scale(1.02);
+  }
+
 }
