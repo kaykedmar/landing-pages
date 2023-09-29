@@ -4,8 +4,9 @@
 
 }
 
-main {
+body {
   margin-bottom: 50px;
+  background-color: black;
 }
 
 header {
@@ -81,14 +82,14 @@ header p {
 .moveis-card p {
   font-size: 18px;
   margin-top: 5px;
-  color: rgb(207, 206, 206);
+  color: rgb(185, 185, 185);
 }
 
 
 
 .moveis-card .title {
   font-weight: 800;
-  color: rgb(230, 230, 230);
+  color: rgb(214, 214, 214);
   font-size: 25px;
 }
 
@@ -174,4 +175,9 @@ header p {
     transform: scale(1.02);
   }
 
+  header { 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 }
