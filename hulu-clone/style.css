@@ -1,1 +1,138 @@
+* {
+  margin: 0;
+  padding: 0;
 
+}
+
+main {
+  margin-bottom: 50px;
+}
+
+header {
+  display: flex;
+  text-align: center;
+  margin: 25px;
+  border-bottom: 1px solid rgb(212, 22, 22);
+}
+
+.logo img { 
+  width: 100%;
+
+}
+
+.logo {
+  margin-left: auto;
+  width: 120px;
+}
+
+
+header p {
+  font-size: 19px;
+}
+
+.home,
+.trading,
+.watch,
+.library,
+.search,
+.account {
+  padding: 15px;
+  margin-left: 20px;
+  cursor: pointer;
+  user-select: none;
+}
+
+.selection {
+  margin-left: 20px;
+  user-select: none;
+}
+
+.selection span {
+  margin-left: 20px;
+  font-size: 25px;
+  font-weight: 800;
+  cursor: pointer;
+  color: rgb(187, 187, 187);
+}
+
+.selection span:hover {
+  color: rgb(167, 166, 166);
+  transform: scale(1.1);
+  transition: color 0.20s, transform 0.3s ease;
+  /* transições em uma única regra */
+}
+
+.moveis {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+
+  align-items: center;
+  justify-content: center;
+}
+
+.moveis-card {
+  width: 500px;
+  margin: 50px 0px 0px 50px;
+  transition: transform 0.20s;
+}
+
+.moveis-card p {
+  font-size: 18px;
+  margin-top: 5px;
+  color: rgb(207, 206, 206);
+}
+
+
+
+.moveis-card .title {
+  font-weight: 800;
+  color: rgb(230, 230, 230);
+  font-size: 25px;
+}
+
+.moveis-card:hover {
+  transform: scale(1.1);
+  /* Aumenta a escala em 10% */
+  transition: transform 0.3s ease;
+  /* Adiciona uma transição suave */
+}
+
+.title {
+  font-weight: 800;
+  color: rgb(83, 83, 83);
+  font-size: 20px;
+
+}
+
+.moveis-card img,
+p {
+  cursor: pointer;
+  user-select: none;
+  width: 100%;
+}
+
+header span, p {
+  color: rgb(185, 185, 185);
+}
+
+
+header .icones:hover { 
+  transform: scale(1.1);
+  transition: transform 0.3s ease;
+}
+
+header p { 
+  display: none;
+}
+
+@media screen and (max-width: 767px) { 
+  .selection span { 
+    font-size: 20px;
+  }
+
+  .title { 
+    font-size: 20px;
+  }
+}
