@@ -1,0 +1,70 @@
+* { 
+  margin: 0;
+  padding: 0;
+
+
+}
+
+body { 
+  width: 97vw;
+  height: 99vh;
+}
+
+main { 
+  display: flex;
+  padding-top: 34px;
+}
+
+.first-colum { 
+  margin-right: 122px;
+}
+
+.segu-colum { 
+  width: 500px;
+
+}
+
+h1 { 
+  font-weight: 800;
+  font-size: 64px;
+
+}
+
+.exploracao p { 
+  margin-top: 32px;
+}
+
+p { 
+  font-size: 26px;
+  line-height: 35.52px;
+  font-weight: 400;
+}
+.exploracao button { 
+  margin-bottom: 88px;
+}
+
+button { 
+  padding: 18px 48px;
+  border: none;
+  border-radius: 50px;
+  margin-top: 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.15s;
+}
+
+button:hover { 
+  background-color: rgb(223, 223, 223);
+}
+
+
+
+h2, p { 
+  margin-bottom: 17px;
+}
+
+h2 { 
+  font-weight: 800;
+  font-size: 24px;
+  color: rgb(170, 170, 170);
+}
