@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   font-family: Arial, Helvetica, sans-serif;
+  user-select: none;
 }
 
 body { 
@@ -61,7 +62,10 @@ input {
 
 .sidebar {
   width: 300px;
-  background-color: rgb(235, 235, 235);
+  background-color: rgb(248, 248, 248);
+  position: fixed;
+  top: 85px;
+  bottom: 0;
 }
 
 .sidebar-end {
@@ -73,6 +77,21 @@ input {
 
 .sidebar-end span {
   margin-left: 20px;
+}
+
+.inbox { 
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 10px;
+  background-color: #fcecec;
+  box-sizing: border-box;
+  font-weight: 800;
+  height: 40px;
+  padding: 0 10px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  color: rgb(196, 5, 5);
 }
 
 button {
@@ -115,9 +134,9 @@ button {
 
 .icons:hover {
   background-color: #fcecec;
-  color: #c04b37;
-  font-weight: 800;
   box-sizing: border-box;
+  font-weight: 800;
+  color: #c04b37;
 }
 
 
@@ -129,7 +148,7 @@ button {
 }
 
 .main-top { 
-
-
+  background-color: rgb(248, 248, 248);
+margin-left: 300px;
 
 }
