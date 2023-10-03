@@ -87,3 +87,15 @@ header {
 button.taxi { 
   background-color: #9d7ed0;
 }
+
+@media (max-width: 767px) { 
+ p { 
+    padding: 10px;
+  }
+
+  .info h1 { 
+    font-size: 3rem;
+  }
+
+
+} 
