@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  background-color: rgb(158, 158, 158);
+  height: 100vh;
+  display: flex; 
+  flex-direction: column; 
+  justify-content: center; 
+  align-items: center; 
+  background-image: url(images/header.jpg);
+  background-size: cover;
+  background-position: center;
+  
+}
+
+nav {
+  text-align: center;
+  margin-top: 30px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  margin: 2rem;
+
+}
+
+.cent { 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-grow: 1; /* esta linha para que o elemento central ocupe todo o espaço vertical disponível */
+
+}
+
+.cent h1, p { 
+  margin-bottom: 1rem;
+}
+
+.cent h1 { 
+  font-size: 5rem;
+  color: white;
+
+
+}
+
+.cent p { 
+  font-size: 1.5rem;
+  color: white;
+}
+
+.cent button { 
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: none;
+  font-size: 1.4rem;
+  color: white;
+  background-color: rgb(218, 61, 87);
+  cursor: pointer;
+}
+
+
+/* fotos */
+.photo { 
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+ 
+}
+
+.fotos { 
+  margin-left: 4rem ;
+}
