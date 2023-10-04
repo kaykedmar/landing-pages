@@ -1,6 +1,8 @@
 * {
   margin: 0;
   padding: 0;
+ 
+
 }
 
 body {
@@ -9,14 +11,24 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; 
+}
+
+
 header {
-  background-color: rgb(158, 158, 158);
+
+  width: 100vw;
   height: 100vh;
+ 
   display: flex; 
   flex-direction: column; 
   justify-content: center; 
   align-items: center; 
-  background-image: url(images/header.jpg);
+  
   background-size: cover;
   background-position: center;
   
@@ -31,6 +43,7 @@ a {
   text-decoration: none;
   color: white;
   margin: 2rem;
+
 
 }
 
@@ -49,14 +62,14 @@ a {
 
 .cent h1 { 
   font-size: 5rem;
-  color: white;
+
 
 
 }
 
 .cent p { 
   font-size: 1.5rem;
-  color: white;
+ 
 }
 
 .cent button { 
@@ -71,14 +84,166 @@ a {
 }
 
 
+.introduct { 
+  margin: 3rem;
+  padding: 6rem;
+  text-align: center;
+  color: rgb(179, 179, 179);
+}
+
+.introduct h2 { 
+  font-size: 3rem;
+  margin: 20px;
+
+}
+
+.introduct p { 
+ 
+}
+
 /* fotos */
 .photo { 
   display: flex;
   flex-direction: row;
   text-align: center;
- 
+  width: 100%;
+  padding: 25px;
+  overflow-y: auto;
 }
 
 .fotos { 
-  margin-left: 4rem ;
+  margin-right: 4rem ;
 }
+
+.fotos h3 { 
+  margin: 15px;
+  color: gray;
+}
+
+.fotos p { 
+  color: rgb(172, 172, 172);
+}
+
+/* Globo */
+
+
+.globo { 
+  width: 1200px;
+  margin-top: 20px;
+}
+
+
+.terra { 
+  text-align: center;
+}
+
+.terra h2, p { 
+  color: gray;
+}
+
+.terra h2 { 
+  font-size: 3rem;
+  margin: 50px;
+}
+
+.terra p { 
+  font-size: 1.5rem;
+}
+
+.terra #menor { 
+  font-size: 1rem;
+  text-align: justify;
+  margin: 50px; 
+  line-height: 2rem;
+}
+
+.terra button { 
+  border: none;
+  padding: 20px 30px;
+  border-radius: 30px;
+  
+  font-size: 1rem;
+  background-color: rgb(218, 61, 87);
+  color: rgb(214, 214, 214);
+  cursor: pointer;
+}
+
+/* Final */
+
+.end { 
+  border-top: 2px solid black;
+  padding-top: 20px;
+  margin-top: 50px;
+  width: 100%;
+}
+
+.end h2 { 
+  margin: 20px;
+  font-size: 3rem;
+
+}
+
+.end h2, .subtitulo { 
+  text-align: center;
+}
+
+
+.final { 
+  display: flex;
+  flex-direction: row;
+}
+
+.final h3, p { 
+  margin: 20px;
+  line-height: 30px;
+}
+
+ 
+ 
+@media (max-width: 768px) { 
+
+  * { 
+  
+  }
+
+  body { 
+    width: 100%;
+    margin-left: 10px;
+  }
+
+  .globo  { 
+    width: 100%;
+  }
+
+  .globo img { 
+    width: 100%;
+  }
+
+  nav { 
+    display: none;
+  }
+
+  .cent { 
+    text-align: center;
+   
+  }
+
+  .cent h1 { 
+    font-size: 2rem
+  }
+
+  .cent p { 
+    font-size: 1rem;
+  }
+
+  .final { 
+    display: flex;
+    flex-direction: column;
+   
+  }
+
+  .end h2 { 
+    font-size: 2rem;
+  }
+
+} 
