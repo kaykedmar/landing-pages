@@ -203,14 +203,9 @@ a {
  
 @media (max-width: 768px) { 
 
-  * { 
-  
-  }
 
-  body { 
-    width: 100%;
-    margin-left: 10px;
-  }
+
+ 
 
   .globo  { 
     width: 100%;
@@ -241,10 +236,21 @@ a {
     display: flex;
     flex-direction: column;
    
+
+  }
+
+  .end { 
+    width: 80%;
+    
+    margin: auto;
   }
 
   .end h2 { 
     font-size: 2rem;
+  }
+
+  .terra button { 
+    margin-bottom: 2rem;
   }
 
 } 
